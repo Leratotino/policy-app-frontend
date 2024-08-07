@@ -23,7 +23,7 @@ const SolutionComponent = () => {
           <form
             action="#"
             method="POST"
-            class="mt-6 flex items-center gap-6 justify-center"
+            class="mt-6 flex items-center gap-6 justify-center flex-col md:flex-row"
           >
             <div>
               <label for="url" class="sr-only">
@@ -31,17 +31,15 @@ const SolutionComponent = () => {
               </label>
               <input
                 type="url"
-                name="text"
+                name="url"
                 id="url"
                 placeholder="e.g. https://mydomain.com/privacypolicy.html"
-                class="w-[600px] p-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-full focus:outline-none focus:border-blue-600 caret-blue-600"
+                class="w-[330px] md:w-[600px] p-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-full focus:outline-none focus:border-blue-600 caret-blue-600"
               />
             </div>
-            <a
-              href="#"
-              title=""
+            <button
+              type="submit"
               class="inline-flex items-center px-6 py-4 font-semibold text-black transition-all duration-200 bg-yellow-300 rounded-full hover:bg-yellow-400 focus:bg-yellow-400"
-              role="button"
             >
               Run checks
               <svg
@@ -58,7 +56,7 @@ const SolutionComponent = () => {
                   d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"
                 />
               </svg>
-            </a>
+            </button>
           </form>
         </div>
       </div>
