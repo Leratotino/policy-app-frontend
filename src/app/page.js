@@ -2,6 +2,7 @@ import FeatureComponent from "./components/feature";
 import FooterComponent from "./components/footer";
 import HeaderComponent from "./components/header";
 import HeroComponent from "./components/hero";
+import SolutionComponent from "./components/solution";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <HeaderComponent />
       <HeroComponent />
       <FeatureComponent />
+      <SolutionComponent />
       <FooterComponent />
     </div>
   );

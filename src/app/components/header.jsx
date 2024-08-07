@@ -52,7 +52,7 @@ const HeaderComponent = () => {
 
           <div class="hidden lg:flex lg:items-center lg:justify-center lg:space-x-10">
             <a
-              href="#"
+              href="#features"
               title=""
               class="text-base text-black transition-all duration-200 hover:text-opacity-80"
             >
@@ -61,7 +61,7 @@ const HeaderComponent = () => {
             </a>
 
             <a
-              href="#"
+              href="#solutions"
               title=""
               class="text-base text-black transition-all duration-200 hover:text-opacity-80"
             >
