@@ -7,10 +7,10 @@ const HeroComponent = () => {
         <div class="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
           <div>
             <p class="text-base font-semibold tracking-wider text-blue-600 uppercase">
-              A social media for learners
+              A GDPR Compliance Software for SME
             </p>
             <h1 class="mt-4 text-4xl font-bold text-black lg:mt-8 sm:text-6xl xl:text-8xl">
-              Connect & learn from the experts
+              GDPR Compliance Software
             </h1>
             <p class="mt-4 text-base text-black lg:mt-8 sm:text-xl">
               Grow your career fast with right mentor.
